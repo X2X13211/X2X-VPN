@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /test/
+Disallow: /cgi-bin/
+Disallow: /api/
+
+User-agent: Yandex
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /test/
+Disallow: /cgi-bin/
+Disallow: /api/
+
+Host: https://x2xvpn.com
+Sitemap: https://x2xvpn.com/sitemap.xml

@@ -1,0 +1,42 @@
+# ── Bot source code (private) ──────────────────────────────────
+main.py
+payment_db.py
+settings.py
+marzban_client.py
+yookassa_client.py
+news_service.py
+link_parser.py
+parse_happ.py
+config_validator.py
+Dockerfile
+amvera.yaml
+requirements.txt
+nginx.conf
+
+# ── Test / debug scripts ────────────────────────────────────────
+test_*.py
+test_b64.py
+test_happ.py
+
+# ── Misc output files ───────────────────────────────────────────
+clash_meta_out.txt
+cookies.txt
+
+# ── Databases & secrets ─────────────────────────────────────────
+*.db
+*.env
+.env
+*.sqlite
+*.sqlite3
+
+# ── Images / banners at root level ─────────────────────────────
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+images/
+
+# ── macOS junk ──────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
